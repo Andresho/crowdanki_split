@@ -1,5 +1,7 @@
+const deckName = "concepts";
+
 const fs = require("fs").promises;
-const data = require("./dist/concepts/concepts.json");
+const data = require(`./dist/${deckName}/${deckName}.json`);
 const { createReadStream, createWriteStream } = require("fs");
 
 const treatErrors = fn => {
@@ -12,8 +14,6 @@ const treatErrors = fn => {
     }
     return treated;
 }
-
-const deckName = "concepts";
 
 const createCardFile = treatErrors(async n => {
     await fs.mkdir(`./cards/${n}`, { recursive: true });
