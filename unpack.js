@@ -13,6 +13,7 @@ const treatErrors = fn => {
     return treated;
 }
 
+const deckName = "concepts";
 
 const createCardFile = treatErrors(async n => {
     await fs.mkdir(`./cards/${n}`, { recursive: true });
@@ -30,7 +31,7 @@ const createCardFile = treatErrors(async n => {
 
     for (let i = 0; i < mediaFiles.length; i++) {
         const filename = mediaFiles[i];
-        createReadStream(`./dist/concepts/media/${filename}`)
+        createReadStream(`./dist/${deckName}/media/${filename}`)
             .pipe(createWriteStream(`./cards/${n}/media/${filename}`))
     }
 })
