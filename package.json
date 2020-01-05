@@ -1,5 +1,5 @@
 {
-  "name": "anki_split_cards",
+  "name": "crowdanki_split",
   "version": "1.0.0",
   "description": "pack and unpack files that come from the crowdanki plugin, for better version control",
   "author": "Andre Hoffmann(phi) <andre.hoffmann@meta.com.br>",
