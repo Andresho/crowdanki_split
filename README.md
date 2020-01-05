@@ -7,7 +7,8 @@ Usage:
 
     - Create a /dist folder in the root of this project
     - Follow the crowdanki to export the deck you want to this /dist folder.
-    - Go to the unpack.js file and change the 'deckName' variable to the name of your deck (the name of the folder inside '/dist').
+    - Go to the unpack.js file and change the 'deckName' variable to the name of your deck (the name of the folder 
+    inside '/dist').
 
     run:
         yarn unpack
