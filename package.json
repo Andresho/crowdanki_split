@@ -1,7 +1,7 @@
 {
-  "name": "anki_webpack",
+  "name": "anki_split_cards",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "pack and unpack files that come from the crowdanki plugin, for better version control",
   "author": "Andre Hoffmann(phi) <andre.hoffmann@meta.com.br>",
   "license": "MIT",
   "scripts": {
