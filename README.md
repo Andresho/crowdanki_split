@@ -19,3 +19,4 @@ Usage:
     - unpack not only the cards, but the deck configuration
     - create the 'pack.js' script
     - maybe change everything to python, because anki is in python
+    - treat other tipe of files beyond image files
